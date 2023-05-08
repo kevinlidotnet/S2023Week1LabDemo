@@ -7,6 +7,9 @@ public class Main {
         foodMenu.setPrice(foodMenu.getPrice()*1.02);
         System.out.println("Price has been updated:");
         System.out.println(foodMenu);
+        foodMenu.setSpicyLevel(foodMenu.getSpicyLevel()+1);
+        System.out.println("Spicy Level has been increased:");
+        System.out.println(foodMenu);
 
     }
 }
